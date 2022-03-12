@@ -1,0 +1,119 @@
+/* /////////////////////////////////////////////////////////// */
+ @media screen and (max-width: 1100px) {
+  .portfolio_image_left {
+    margin-right: 50px;
+
+    & img {
+       max-width: 600px;
+    }
+  }  
+
+  .portfolio_image_right {
+    margin-left: 50px;
+
+    & img {
+       max-width: 600px;
+    }
+  }
+ }
+
+@media screen and (max-width: 820px) {
+  
+  body h2 {
+    font-size: 35px;
+  }
+
+  .intro_top_group {
+
+    .intro_title h1{
+      font-size: 40px;
+    }
+
+    .intro_subtitle h2 {
+      font-size: 40px;
+    }
+    
+  }
+
+
+  .skills_item {
+    max-width: 30%;
+  }
+
+  .skills_title {
+  font-size: 14px;
+  }
+
+  .skills_list li {
+  font-size: 14px;
+}
+
+  .portfolio_image_left {
+    margin-right: 30px;
+
+    & img {
+       max-width: 500px;
+    }
+  }  
+
+  .portfolio_image_right {
+    margin-left: 30px;
+
+    & img {
+       max-width: 500px;
+    }
+  }
+
+  .portfolio_text p {
+    font-size: 16px;
+    .portfolio_link {
+      font-size: 16px;
+    } 
+  }
+
+  .footer_photo {
+    max-width: 95%;
+    margin-right: 15px;
+  }
+
+  .footer_icon {
+    max-width: 95%;
+    margin-right: 15px;
+  }
+
+}
+
+@media screen and (max-width: 750px) and (min-width: 360px) {
+
+  .portfolio_main {
+    display: inline;
+  }
+
+  .portfolio_text{
+  
+    
+  }
+
+  .portfolio_image_left {
+    
+    
+    margin-right: 30px;
+
+    & img {
+       max-width: 300px;
+    }
+  }  
+
+  .portfolio_image_right {
+    
+    margin-left: 30px;
+
+    & img {
+       max-width: 300px;
+    }
+  }
+
+}
+
+
+/* /////////////////////////////////////////////////////////// */
